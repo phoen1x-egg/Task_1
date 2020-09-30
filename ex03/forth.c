@@ -1,3 +1,6 @@
+/*
+clear; gcc ex05.c -o ex05; ./ex05
+*/
 #include <stdio.h>
 #include <unistd.h>
 void ft_putchar (); 
@@ -18,7 +21,7 @@ void ft_putchar () {
 	
 
 } 
-
+a
 void ft_print_alphabet (void) {	
 	 ft_putchar(); 
  

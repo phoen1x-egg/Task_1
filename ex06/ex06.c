@@ -1,5 +1,5 @@
 /*
-clear; gcc ex05.c -o ex05; ./ex05
+clear; gcc ex06.c -o ex06; ./ex06
 */
 #include <stdio.h>
 #include <unistd.h>
@@ -9,19 +9,11 @@ int n;
 
 void ft_putchar () {
 
-        printf("Enter an integer: ");
-        scanf("%d", &n);
-	 if ( n >= 0) {
-	  	 printf("P");
-	 }
-	 else {
-	 	printf("N");
-
-	 }
-
+	printf("Enter an integer: ");
+	scanf("%d", &n);
+	printf("%d\n", n);
 
 }
-
 void ft_print_alphabet (void) {
 	 ft_putchar();
 
